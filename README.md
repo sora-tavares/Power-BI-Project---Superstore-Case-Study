@@ -99,7 +99,8 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 ## 📂 Resources
 
 - 📦 [Original Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- 📄 [Presentation Summary (PDF)](Presentation/Soraia_Retail Sales & Profit Analysis A Superstore Case Study .pdf)
+-📄 [Presentation Summary (PDF)](Presentation/Soraia_Retail%20Sales%20%26%20Profit%20Analysis%20A%20Superstore%20Case%20Study.pdf)
+
 - 🖼️ Screenshots & GIFs: See `Assets/` folder
 - 🗂️ Power BI file: Available in `Sourcecode (PowerBI)/`
 
