@@ -1,5 +1,7 @@
 # 🛒 Superstore Sales Analysis | Power BI Dashboard
 
+📘 *This project was created as part of my Data Analysis Bootcamp. It focuses on using Power BI to explore customer behaviour and inform business decisions.*
+
 **Project Type:** Data Analysis & Dashboard Design  
 **Tools Used:** Power BI, Excel, DAX  
 **Dataset:** [Kaggle - Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
@@ -97,6 +99,7 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 ## 📂 Resources
 
 - 📦 [Original Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- 📄 [Presentation Summary (PDF)](Presentation/Soraia_Retail Sales & Profit Analysis A Superstore Case Study .pdf)
 - 🖼️ Screenshots & GIFs: See `Assets/` folder
 - 🗂️ Power BI file: Available in `Sourcecode (PowerBI)/`
 
@@ -105,3 +108,8 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 ## 🎯 Final Thoughts
 
 This case study strengthened my ability to transform raw data into actionable insight through both technical execution and strategic framing. By combining interactivity, segmentation, and storytelling, I’ve built a solution that reflects how real businesses can make smarter customer decisions — and that’s the kind of work I’m ready to keep doing.
+
+---
+
+👋 **Let’s connect!**  
+Feel free to explore more of my work on [GitHub](https://github.com/sora-tavares) or connect with me on [LinkedIn](https://www.linkedin.com/in/soraiatavares/)
