@@ -9,7 +9,7 @@
 
 ## 📊 Project Overview
 
-This project explores sales performance and customer behaviour for a fictional retail chain using the **Superstore dataset**. Built in Power BI, the dashboard combines clean visuals, slicer interactivity, and segmentation logic to identify actionable opportunities in customer engagement and profitability.
+This project explores sales performance and customer behaviour for a fictional retail chain using the **Superstore dataset**. Built in Power BI, the dashboard combines clean visuals, slicer interactivity, and segmentation logic to uncover actionable opportunities in customer engagement and profitability.
 
 ---
 
@@ -24,10 +24,10 @@ This project explores sales performance and customer behaviour for a fictional r
 
 ## 🧠 Analytical Highlights
 
-- **RFM Segmentation** applied to 4,700+ customers using calculated columns in DAX
-- Found that **over 60% of customers** were active within the last 30 days
-- Identified high-frequency, high-monetary segments ideal for loyalty targeting
-- Flagged low-recency, low-value customers as churn risks
+- Applied **RFM Segmentation** to 4,700+ customers using DAX logic
+- Found that over **60% of customers** were active in the past 30 days
+- Identified **high-frequency, high-monetary** customers for loyalty targeting
+- Flagged **low-recency, low-spend** segments as churn risks
 
 ---
 
@@ -38,9 +38,11 @@ This project explores sales performance and customer behaviour for a fictional r
 ![Sales Overview](Assets/sales_overview_screenshot.png)  
 *High-level performance metrics with dynamic filters*
 
-The West region generated the highest sales, but had lower profit margins compared to Central. Corporate segment consistently outperformed in profit contribution. Technology drives the most revenue.
-![Sales Filters in Action](Assets/sales_overview_filters.gif)
-*Switching between customer recency groups reveals that nearly 90% of sales come from customers who purchased within the last 30 days — strong short-term engagement, but with potential long-term retention risks.*
+The West region generated the highest sales, but had lower profit margins compared to Central. The Corporate segment consistently outperformed in profit contribution. Technology products drove the most revenue.
+
+![Sales Filters in Action](Assets/sales_overview_filters.gif)  
+*Switching between customer recency groups reveals that nearly **89% of sales** come from customers active within the last 30 days — a strong sign of engagement, but with potential retention risks.*
+
 ---
 
 ### 📌 RFM Segment Analysis
@@ -49,8 +51,10 @@ The West region generated the highest sales, but had lower profit margins compar
 *Customer segments based on Recency, Frequency, and Monetary score combinations*
 
 Over 60% of customers are in the “Recent” group (purchased within 30 days), presenting a strong re-engagement opportunity.
-![RFM Interaction](Assets/rfm_segment_interaction.gif)
-*Filtering for “Champions” highlights high average order value and consistent sales, while “At Risk” customers make up over 40% of total sales — a critical revenue segment needing reactivation.*
+
+![RFM Interaction](Assets/rfm_segment_interaction.gif)  
+*Filtering for “Champions” highlights high average order value and steady spending. “At Risk” customers account for over 40% of total sales — making them a high-priority segment for retention strategies.*
+
 ---
 
 ### 📌 Recommendations & Action Plan
@@ -59,22 +63,25 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 *Summary of strategic actions based on data insights*
 
 ---
+
 ## 📌 Key Findings
 
-- The West region drives the highest sales, while the Central region achieves stronger profit margins.
-- Technology products generate the most revenue; Office Supplies also perform well for upselling.
-- Over 89% of sales come from customers active in the last 30 days, indicating strong recent engagement.
-- “Champions” customers spend the most on average, while “At Risk” customers contribute over 40% of total revenue — making them a high-stakes segment.
-- RFM segmentation enabled targeted strategies, such as loyalty campaigns for Champions and win-back actions for At Risk groups.
+- West region drives the highest sales; Central has stronger profit margins
+- Technology leads in revenue, with upselling potential in Office Supplies
+- 89% of sales come from customers active in the past 30 days
+- “Champions” spend the most per order; “At Risk” customers contribute 40%+ of total revenue
+- RFM insights supported loyalty campaigns, retention efforts, and upsell targeting
 
 ---
+
 ## 🧗 Challenges Faced
 
-- Fine-tuning RFM segmentation logic to balance insight and simplicity
-- Cleaning inconsistent data values (e.g. missing categories, duplicates)
-- Designing clear visuals without overcrowding
-- Learning DAX for calculated columns and RFM score logic
-- Data inconsistency in the date field: To avoid skewed recency analysis, I applied a fixed cutoff date to simulate a consistent snapshot in time for RFM segmentation.
+- Fine-tuning RFM segmentation logic to balance clarity and insight
+- Handling missing categories and data inconsistencies
+- Designing intuitive visuals that tell layered stories
+- Learning DAX for segmentation and metric calculations
+- Establishing a fixed **cutoff date** to ensure accurate recency analysis
+
 ---
 
 ## ✅ Key Skills Demonstrated
@@ -83,7 +90,7 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 - RFM Analysis & Customer Segmentation
 - Dashboard Design & Slicer Interactivity
 - DAX for calculated logic
-- Visual Storytelling & Business Recommendations
+- Visual Storytelling & Strategic Thinking
 
 ---
 
@@ -91,10 +98,10 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 
 - 📦 [Original Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - 🖼️ Screenshots & GIFs: See `Assets/` folder
-- 🗂️ Power BI file available in `Sourcecode (PowerBI)/`
+- 🗂️ Power BI file: Available in `Sourcecode (PowerBI)/`
 
 ---
 
 ## 🎯 Final Thoughts
 
-This case study helped sharpen my ability to move beyond charts into **real business storytelling**. By combining RFM with interactivity, I was able to simulate how a retail team might use data to take strategic action — and that’s exactly the kind of work I want to keep doing.
+This case study strengthened my ability to transform raw data into actionable insight through both technical execution and strategic framing. By combining interactivity, segmentation, and storytelling, I’ve built a solution that reflects how real businesses can make smarter customer decisions — and that’s the kind of work I’m ready to keep doing.
