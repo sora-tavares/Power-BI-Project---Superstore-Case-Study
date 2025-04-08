@@ -38,9 +38,9 @@ This project explores sales performance and customer behaviour for a fictional r
 ![Sales Overview](Assets/sales_overview_screenshot.png)  
 *High-level performance metrics with dynamic filters*
 
-The West region generated the highest sales, but had lower profit margins compared to Central. Corporate segment consistently outperformed in profit contribution.
+The West region generated the highest sales, but had lower profit margins compared to Central. Corporate segment consistently outperformed in profit contribution. Technology drives the most revenue.
 ![Sales Filters in Action](Assets/sales_overview_filters.gif)
-
+*Switching between customer recency groups reveals that nearly 90% of sales come from customers who purchased within the last 30 days — strong short-term engagement, but with potential long-term retention risks.*
 ---
 
 ### 📌 RFM Segment Analysis
@@ -50,7 +50,7 @@ The West region generated the highest sales, but had lower profit margins compar
 
 Over 60% of customers are in the “Recent” group (purchased within 30 days), presenting a strong re-engagement opportunity.
 ![RFM Interaction](Assets/rfm_segment_interaction.gif)
-
+*Filtering for “Champions” highlights high average order value and consistent sales, while “At Risk” customers make up over 40% of total sales — a critical revenue segment needing reactivation.*
 ---
 
 ### 📌 Recommendations & Action Plan
@@ -59,14 +59,22 @@ Over 60% of customers are in the “Recent” group (purchased within 30 days), 
 *Summary of strategic actions based on data insights*
 
 ---
+## 📌 Key Findings
 
+- The West region drives the highest sales, while the Central region achieves stronger profit margins.
+- Technology products generate the most revenue; Office Supplies also perform well for upselling.
+- Over 89% of sales come from customers active in the last 30 days, indicating strong recent engagement.
+- “Champions” customers spend the most on average, while “At Risk” customers contribute over 40% of total revenue — making them a high-stakes segment.
+- RFM segmentation enabled targeted strategies, such as loyalty campaigns for Champions and win-back actions for At Risk groups.
+
+---
 ## 🧗 Challenges Faced
 
 - Fine-tuning RFM segmentation logic to balance insight and simplicity
 - Cleaning inconsistent data values (e.g. missing categories, duplicates)
 - Designing clear visuals without overcrowding
 - Learning DAX for calculated columns and RFM score logic
-- Data inconsistency in the date field: To avoid skewed recency analysis, we applied a fixed cutoff date to simulate a consistent snapshot in time for RFM segmentation.
+- Data inconsistency in the date field: To avoid skewed recency analysis, I applied a fixed cutoff date to simulate a consistent snapshot in time for RFM segmentation.
 ---
 
 ## ✅ Key Skills Demonstrated
